@@ -1,0 +1,50 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.22.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - ember-cli-babel > @babel/core > lodash:
+        patched: '2022-03-25T19:59:36.912Z'
+    - ember-cli-babel > @babel/plugin-transform-modules-amd > @babel/helper-module-transforms > lodash:
+        patched: '2022-03-25T19:59:36.912Z'
+    - ember-cli-babel > broccoli-babel-transpiler > @babel/core > lodash:
+        patched: '2022-03-25T19:59:36.912Z'
+    - ember-cli-babel > broccoli-babel-transpiler > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-03-25T19:59:36.912Z'
+    - ember-cli-babel > broccoli-babel-transpiler > workerpool > @babel/core > lodash:
+        patched: '2022-03-25T19:59:36.912Z'
+    - ember-cli-babel > @babel/preset-env > @babel/plugin-transform-unicode-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2022-03-25T19:59:36.912Z'
+    - ember-cli-babel > broccoli-babel-transpiler > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-03-25T19:59:36.912Z'
+    - ember-cli-babel > broccoli-babel-transpiler > workerpool > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-03-25T19:59:36.912Z'
+    - ember-cli-babel > broccoli-babel-transpiler > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-03-25T19:59:36.912Z'
+    - ember-cli-babel > broccoli-babel-transpiler > workerpool > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-03-25T19:59:36.912Z'
+    - ember-cli-babel > broccoli-babel-transpiler > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/types > lodash:
+        patched: '2022-03-25T19:59:36.912Z'
+    - ember-cli-babel > broccoli-babel-transpiler > workerpool > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-03-25T19:59:36.912Z'
+    - ember-cli-babel > broccoli-babel-transpiler > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-25T19:59:36.912Z'
+    - ember-cli-babel > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-25T19:59:36.912Z'
+    - ember-cli-babel > broccoli-babel-transpiler > workerpool > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/types > lodash:
+        patched: '2022-03-25T19:59:36.912Z'
+    - ember-auto-import > @embroider/core > @embroider/macros > @embroider/core > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/types > lodash:
+        patched: '2022-03-25T19:59:36.912Z'
+    - ember-cli-babel > broccoli-babel-transpiler > workerpool > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-25T19:59:36.912Z'
+    - ember-cli-babel > broccoli-babel-transpiler > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-25T19:59:36.912Z'
+    - ember-cli-babel > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-25T19:59:36.912Z'
+    - ember-auto-import > @embroider/core > @embroider/macros > @embroider/core > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-25T19:59:36.912Z'
+    - ember-cli-babel > broccoli-babel-transpiler > workerpool > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-25T19:59:36.912Z'
+    - ember-auto-import > @embroider/core > @embroider/macros > @embroider/core > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-25T19:59:36.912Z'
