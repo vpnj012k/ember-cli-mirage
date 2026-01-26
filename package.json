@@ -38,11 +38,11 @@
     "broccoli-file-creator": "^2.1.1",
     "broccoli-funnel": "^2.0.2",
     "broccoli-merge-trees": "^3.0.2",
-    "ember-auto-import": "^1.2.19",
+    "ember-auto-import": "^2.0.0",
     "ember-cli-babel": "^7.5.0",
     "ember-get-config": "^0.2.2",
     "ember-inflector": "^2.0.0 || ^3.0.0",
-    "lodash-es": "^4.17.11",
+    "lodash-es": "^4.17.23",
     "miragejs": "^0.1.31"
   },
   "devDependencies": {
